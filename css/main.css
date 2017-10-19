@@ -1,0 +1,27 @@
+h1 {
+    outline: 1px solid yellow;
+    text-align: center;
+}
+
+img {
+    outline: 1px solid blue;
+    /*max-width ajusta la imagen con respecto a su contenedor*/
+    max-width: 100%;
+}
+
+.caja {
+    /* usamos outlinepara saber como va mi maquetado*/
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    /*siempre al usar float considerar que el elemento contenedor sea lo suficientemente grande*/   
+    float: left;
+    margin-left: 8px;
+}
+
+p {
+    outline: 1px solid orange;
+}
+
+/*el alto(heigth) va de acuerdo al contenido*/
